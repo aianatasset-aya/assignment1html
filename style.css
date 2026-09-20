@@ -1,6 +1,6 @@
 body {
-    background-color: #f5f3ff;
-    color: #2d3436;
+    background-color:#E8EBEE;
+    color:#25282C;
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -12,20 +12,21 @@ p {
 }
 
 h3 {
-    color: #5f27cd;
+    color: #536B82;
     font-family: Georgia, serif;
 }
 
 
 .highlight {
-    background-color: #ffeaa7;
+    background-color: #D5DEE6;
     padding: 10px;
-    border-left: 5px solid #fdcb6e;
+    border-left: 5px solid #536B82;
 }
 
 
 
 #main-heading {
+    color: #F7F8F9;
     font-size: 2.5rem;
     letter-spacing: 2px;
     margin-bottom: 5px;
@@ -33,7 +34,7 @@ h3 {
 
 
 .header {
-    background-color: #6c5ce7;
+    background-color: #30343B;
     color: white;
     text-align: center;
     padding: 30px;
@@ -62,8 +63,8 @@ h3 {
 
 
 .box-model {
-    background-color: #f0ebff;
-    border: 3px solid #6c5ce7;
+    background-color: #DDE3E8;
+    border: 3px solid #535b82;
     margin: 30px 0;
     padding: 20px;
 }
@@ -73,12 +74,12 @@ h3 {
     max-width: 400px;
     height: auto;
     border-radius: 15px;
-    border: 4px solid #6c5ce7;
+    border: 4px solid #3d516c;
 }
 
 
 a {
-    color: #6c5ce7;
+    color: #536B82;
     font-weight: bold;
     text-decoration: none;
 }
@@ -90,7 +91,7 @@ a:hover {
 
 
 .main-button {
-    background-color: #6c5ce7;
+    background-color: #536B82;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -100,7 +101,7 @@ a:hover {
 }
 
 .main-button:hover {
-    background-color: #4834d4;
+    background-color: #3F5367;
 }
 
 
@@ -118,20 +119,19 @@ td {
 }
 
 th {
-    background-color: #6c5ce7;
+    background-color: #454B54;
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #f5f3ff;
+    background-color: #EEF1F3;
 }
-
 
 
 .position-container {
     position: relative;
     background-color: #eee8ff;
-    border: 2px solid #a29bfe;
+    border: 2px solid #84a7f4ab;
     padding: 20px;
     min-height: 180px;
 }
@@ -146,7 +146,7 @@ tr:nth-child(even) {
 .relative-box {
     position: relative;
     left: 30px;
-    background-color: #81ecec;
+    background-color: #81afecc9;
     padding: 15px;
     width: 200px;
 }
@@ -155,7 +155,7 @@ tr:nth-child(even) {
     position: absolute;
     right: 20px;
     top: 20px;
-    background-color: #fab1a0;
+    background-color: #a0cbfa;
     padding: 15px;
 }
 
@@ -177,7 +177,7 @@ tr:nth-child(even) {
 
 .float-right {
     float: right;
-    background-color: #ff7675;
+    background-color: #75ccff7b;
     padding: 20px;
     width: 35%;
     text-align: center;
@@ -193,7 +193,7 @@ tr:nth-child(even) {
 form {
     background-color: #f0ebff;
     padding: 25px;
-    border: 2px solid #a29bfe;
+    border: 2px solid #54618b;
     border-radius: 10px;
 }
 
@@ -203,7 +203,7 @@ input {
 }
 
 input[type="submit"] {
-    background-color: #6c5ce7;
+    background-color: #626e7aa4;
     color: white;
     border: none;
     padding: 10px 20px;
