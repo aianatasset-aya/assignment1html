@@ -1,117 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+
+    <title>Asset Ayanat | Web Technologies</title>
+
+    <!-- Task 6: Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Task 3: External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Task 2: Internal CSS -->
+    <style>
+        /* Internal CSS example */
+        .internal-style {
+            color: #6c5ce7;
+            font-style: italic;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Asset Ayanat</h1>
 
-    <h2>Web Technologies</h2>
+    <!-- Task 7: Div - Header -->
+    <div class="header">
 
-    <h3>About Me</h3>
+        <h1 id="main-heading">Asset Ayanat</h1>
 
-    <p>
-        My name is Ayanat.I am 18 years old and i study at AITU university in second year.
-        My major is Media Technologies.Two of my biggest interests is gaming and reading.
-    </p>
+        <h2>Web Technologies</h2>
 
-    <h3>My Hobbies</h3>
+        <p class="internal-style">
+            Welcome to my personal webpage!
+        </p>
 
-    <ol>
-        <li>Reading</li>
-        <li>Gaming</li>
-        <li>Photography</li>
-        <li>Watching films</li>
-    </ol>
+    </div>
 
-    <h3>My Favorite Websites</h3>
 
-    <ul>
-        <li>YouTube</li>
-        <li>AO3</li>
-        <li>Any film websites</li>
-    </ul>
+    <!-- Task 7: Div - Main Content -->
+    <div class="main-content">
 
-    <h3>My Photo</h3>
+        <h3>About Me</h3>
 
-    <img src="images/IMAGE 2026-09-13 18:55:07.jpg"
-         alt="Photo of Me"
-         width="300">
+        <!-- Task 1: Inline CSS -->
+        <p style="color: #e17055;">
+            My name is Ayanat. I am 18 years old and I study at AITU university
+            in second year. My major is Media Technologies. Two of my biggest
+            interests are gaming and reading.
+        </p>
 
-    <h3>My Favorite Websites</h3>
 
-    <p>
-        <a href="https://www.youtube.com" target="_blank">
-            YouTube
-        </a>
-    </p>
+        <h3>My Hobbies</h3>
 
-    <p>
-        <a href="https://hdrezka.inc" target="_blank">
-            a film site
-        </a>
-    </p>
-    
-    <h3>A Button</h3>
-    <button>Click Me</button>
+        <ol class="highlight">
+            <li>Reading</li>
+            <li>Gaming</li>
+            <li>Photography</li>
+            <li>Watching films</li>
+        </ol>
 
-    <h2>My Weekly Class Schedule</h2>
 
-    <table border="1">
-        <tr>
-            <th>Subject</th>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
+        <h3>My Favorite Websites</h3>
 
-        <tr>
-            <td>Cinematography & Digital Editing</td>
-            <td>Monday</td>
-            <td>18:00</td>
-        </tr>
+        <ul>
+            <li>YouTube</li>
+            <li>AO3</li>
+            <li>Any film websites</li>
+        </ul>
 
-        <tr>
-            <td>Foundation of Screenwriting</td>
-            <td>Wednesday</td>
-            <td>10:00</td>
-        </tr>
 
-        <tr>
-            <td>Web Technologies</td>
-            <td>Friday</td>
-            <td>15:00</td>
-        </tr>
-    </table>
+        <!-- Task 10: CSS sizing -->
+        <h3>My Photo</h3>
 
-    <h3> My mood today</h3>
+        <img
+            class="profile-image"
+            src="images/IMAGE 2026-09-13 18:55:07.jpg"
+            alt="Photo of Me"
+        >
 
-    </p>
-    Today I feel tired 🫩,sleepy 😴,and bored 🥱
-    </p>
-    
-    <h2>Contact Form</h2>
 
-    <form>
-        <label for="name">Name:</label>
-        <br>
-        <input type="text" id="name" name="name">
+        <h3>Favorite Websites</h3>
 
-        <br><br>
+        <p>
+            <a href="https://www.youtube.com" target="_blank">
+                YouTube
+            </a>
+        </p>
 
-        <label for="email">Email:</label>
-        <br>
-        <input type="email" id="email" name="email">
+        <p>
+            <a href="https://hdrezka.inc" target="_blank">
+                A film site
+            </a>
+        </p>
 
-        <br><br>
 
-        <label for="color">Favorite Color:</label>
-        <br>
-        <input type="color" id="color" name="color">
+        <h3>A Button</h3>
 
-        <br><br>
+        <button class="main-button">
+            Click Me
+        </button>
 
-        <input type="submit" value="Submit">
-    </form>
+
+        <!-- Task 8: Box Model -->
+        <div class="box-model">
+
+            <h3>My Weekly Class Schedule</h3>
+
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+
+                <tr>
+                    <td>Cinematography & Digital Editing</td>
+                    <td>Monday</td>
+                    <td>18:00</td>
+                </tr>
+
+                <tr>
+                    <td>Foundation of Screenwriting</td>
+                    <td>Wednesday</td>
+                    <td>10:00</td>
+                </tr>
+
+                <tr>
+                    <td>Web Technologies</td>
+                    <td>Friday</td>
+                    <td>15:00</td>
+                </tr>
+            </table>
+
+        </div>
+
+
+        <h3>My Mood Today</h3>
+
+        <p class="highlight">
+            Today I feel tired 🫩, sleepy 😴, and bored 🥱.
+        </p>
+
+
+        <!-- Task 9: Positioning -->
+        <h3>CSS Positioning</h3>
+
+        <div class="position-container">
+
+            <div class="static-box">
+                Static Position
+            </div>
+
+            <div class="relative-box">
+                Relative Position
+            </div>
+
+            <div class="absolute-box">
+                Absolute Position
+            </div>
+
+        </div>
+
+
+        <!-- Task 11: Float and Clear -->
+        <h3>Float and Clear</h3>
+
+        <div class="float-container">
+
+            <div class="float-left">
+                Floated Left
+            </div>
+
+            <div class="float-right">
+                Floated Right
+            </div>
+
+            <div class="clear">
+                This element uses clear.
+            </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <h2>Contact Form</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <br>
+
+            <input type="text" id="name" name="name">
+
+            <br><br>
+
+
+            <label for="email">Email:</label>
+            <br>
+
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+
+            <label for="color">Favorite Color:</label>
+            <br>
+
+            <input type="color" id="color" name="color">
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+
+    <!-- Task 7: Div - Footer -->
+    <div class="footer">
+
+        <p>
+            © 2026 Asset Ayanat | Web Technologies
+        </p>
+
+    </div>
+
 </body>
 </html>
